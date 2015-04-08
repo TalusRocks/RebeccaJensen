@@ -1,19 +1,20 @@
 /* this is my custom CSS */
 
 body {
-  background-image:url('../images/ticks-blue.png');
+ /* background-image:url('../images/ticks.png');*/
 }
 
 /* FOR NAME ONLY */
 h1 {
-  font-family: "Lato-bold";
+  font-family: "Walter Turncoat", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 4em;
   color: #333;
 }
 
+
 /* FOR LARGE HEADLINES */
 h2 {
-  font-family: "Lato-bold";
+  font-family: 'Walter Turncoat';
   font-size: 2.5em;
   color: #333;
 }
@@ -27,7 +28,7 @@ h3 {
 
 p {
   font-family: "Lato";
-  font-size: 1em;
+  font-size: 1.1em;
   color: #333;
 }
 
@@ -37,27 +38,22 @@ a {
 }
 
 /* ===== NAVIGATION ===== */
-
 .navbar {
   border-bottom: none;
 } 
-
 nav ul {
   list-style: none;
   text-align: center;
   margin-bottom: 0px;
   background-color: #333;
 }
-
 nav ul li {
   display: inline-block;
   padding: 1.25em 3em;
 }
-
 nav ul li a {
   color: #eee;
 }
-
 nav ul li a:hover {
   text-decoration: none;
   color: #5bc0de;
@@ -100,6 +96,11 @@ border-color: #f0ad4e;
   color: #eee;
 }
 
+.splash a:hover {
+  text-decoration: none;
+  color: #f0ad4e;
+}
+
 .mask {
   width: 200px;
   height: 200px;
@@ -130,10 +131,31 @@ div.feat-mini {
   margin: 0 auto;
 }
 
+/*==== ABOUT ======*/
+
+.about {
+  background-image:url('../images/landscape-2.jpg');
+  background-size: cover;
+}
+
+.about h1, .about p {
+  color: #eee;
+}
+
+/*===== CONTACT =====*/
+
+p#call-to-action {
+  padding-top: 20px;
+}
+
 /* == GENERAL HACKERY == */
 img.ctr {
   display: block;
   margin: 0 auto;
+}
+
+img.wide {
+  width: 100%;
 }
 
 /* === GENERAL MARGINS AND PADDING */
@@ -179,7 +201,7 @@ with colored backgrounds */
   width: 100%;
 }
 
-.sample {
+/*.sample {
   position: relative;
 }
 .overlay {
@@ -188,7 +210,7 @@ with colored backgrounds */
   width: 100%;
   height: 10%;
   background-color: rgba(0, 0, 0, 0.7);
-}
+}*/
 .view-text a{
   color: white;
   margin-left: 20px;
@@ -204,9 +226,6 @@ with colored backgrounds */
 }
 
 
-.darkBg {
-  background-color: rgba(0, 0, 0, 0.3);
-} /* not yet in use */
 
 /*.smallSample {
   width: 80%;
