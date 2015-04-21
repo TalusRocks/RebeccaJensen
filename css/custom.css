@@ -10,53 +10,46 @@ h1 {
   font-size: 4em;
   color: #333;
 }
-
-
 /* FOR LARGE HEADLINES */
 h2 {
   font-family: 'Walter Turncoat';
   font-size: 2.5em;
   color: #333;
 }
-
 /* FOR SMALL HEADLINES INFO */
 h3 {
   font-family: "Lato";
   font-size: 1.25em;
   color: #333;
 }
-
 p {
   font-family: "Lato";
   font-size: 1.1em;
   color: #333;
 }
-
 a {
   color:#5bc0de;
   text-decoration: none;
 }
 
-/* ===== NAVIGATION ===== */
+
+/* ===== BOOTSTRAP NAV ===== */
 .navbar {
-  border-bottom: none;
-} 
-nav ul {
-  list-style: none;
-  text-align: center;
   margin-bottom: 0px;
-  background-color: #333;
+  border-radius: 0px;
+  padding: 20px;
+}
+.nav-bg {
+  background-color: #222;
+}
+.navbar-inverse {
+  border-color: #222;
+}
+#name-nav img {
+  width: 50px;
 }
 nav ul li {
-  display: inline-block;
-  padding: 1.25em 3em;
-}
-nav ul li a {
-  color: #eee;
-}
-nav ul li a:hover {
-  text-decoration: none;
-  color: #5bc0de;
+  padding: 0px 20px;
 }
 
 
@@ -67,13 +60,13 @@ border: 2px solid #eee;
 border-radius: 4px;
 background: none;
 color: #eee;
-margin: 20px 15px;
+margin: 5px 20px;
 padding: 8px 14px;
 }
 
-#btn-half-wide {
+/*#btn-half-wide {
   width: 40%;
-} /* for two buttons side-by-side in the same div */
+} *//* for two buttons side-by-side in the same div */
 
 button.my-button:hover {
 color: #f0ad4e;
@@ -82,14 +75,24 @@ border-color: #f0ad4e;
 }
 
 
-/* ===== SPLASH LANDING ===== */
-
-
+/* ===== HOME SPLASH LANDING ===== */
 .splash {
-  background-image:url('../images/landscape.jpg');
+  background-image:url('../images/landscapes/landscape-blanca.jpg');
   background-size: cover;
-  padding-top: 200px; /* nav bar is 115px in desktop mode */
-  padding-bottom: 150px;
+  padding-top: 130px; /* nav bar is 115px in desktop mode */
+  padding-bottom: 130px;
+  position: relative;
+}
+
+.ux-splash {
+  background-image:url('../images/landscapes/landscape-slc.jpg');
+}
+
+#texture-top1 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
 }
 
 .splash h1, .splash h2, .splash p {
@@ -114,11 +117,11 @@ h2#job-title {
 }
 
 
-/* ===== SKILL HIGHLIGHTS (mini features) ===== */
-
+/* ===== MINI FEATURES ===== */
 div.feat-ctr img {
   display: block;
   margin: 0 auto;
+  width: 90%;
 }
 
 div.feat-ctr h3, div.feat-ctr p {
@@ -126,16 +129,33 @@ div.feat-ctr h3, div.feat-ctr p {
 }
 
 div.feat-mini {
-  width: 80%;
+  width: 90%;
   display: block;
   margin: 0 auto;
 }
 
-/*==== ABOUT ======*/
+/* ==== MEDIUM FEATURES ===== */
+#img-holder {
 
+}
+
+/*==== ABOUT ======*/
 .about {
-  background-image:url('../images/landscape-2.jpg');
+  background-image:url('../images/landscapes/landscape-cathedral.jpg');
   background-size: cover;
+  position: relative;
+}
+#texture-bottom1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%; 
+}
+#texture-top2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%; 
 }
 
 .about h1, .about p {
@@ -168,6 +188,9 @@ img.wide {
 .big-margin-top {
   margin-top: 100px;
 }
+.xs-margin-bottom {
+  margin-bottom: 25px;
+}
 .small-margin-bottom {
   margin-bottom: 50px;
 }
@@ -180,14 +203,32 @@ img.wide {
 
 /* padding is used instead of margin in sections 
 with colored backgrounds */
+.xxl-padding-top {
+  padding-top: 200px;
+}
 .big-padding-top {
   padding-top: 100px;
 } 
+.medium-padding-top {
+  padding-top: 75px;
+}
+.small-padding-top {
+  padding-top: 50px;
+}
+.xs-padding-top {
+  padding-top: 25px;
+}
 .small-padding-bottom {
   padding-bottom: 50px;
 }
 .big-padding-bottom {
   padding-bottom: 100px;
+}
+.xl-padding-bottom {
+  padding-bottom: 150px;
+}
+.xxxl-padding-bottom {
+  padding-bottom: 230px;
 }
 
 
@@ -197,20 +238,6 @@ with colored backgrounds */
   background-color: white;
 }
 
-.bigSample {
-  width: 100%;
-}
-
-/*.sample {
-  position: relative;
-}
-.overlay {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  height: 10%;
-  background-color: rgba(0, 0, 0, 0.7);
-}*/
 .view-text a{
   color: white;
   margin-left: 20px;
@@ -225,11 +252,6 @@ with colored backgrounds */
   color: #1f2b5e;
 }
 
-
-
-/*.smallSample {
-  width: 80%;
-}*/
 
 .shadowBox
 {
@@ -248,5 +270,9 @@ with colored backgrounds */
 
 
 
-/* ===== SKILL SECTIONS ===== */
+/* ===== MEDIA QUERIES===== */
+/* Phones & Phablets */
+@media(max-width:767px){
+
+  } /* end phones & phablets */
 
