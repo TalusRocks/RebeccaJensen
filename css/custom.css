@@ -74,6 +74,10 @@ nav ul li {
   background-image:url('../images/landscapes/landscape-slc.jpg');
 }
 
+.web-splash {
+  background-image:url('../images/landscapes/landscape-teanaway.jpg');
+}
+
 #texture-top1 {
   position: absolute;
   bottom: 0px;
