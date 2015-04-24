@@ -180,7 +180,7 @@ img.wide {
 }
 
 img.less-wide {
-  width: 80%;
+  width: 75%;
 }
 
 img.transparent {
@@ -197,10 +197,6 @@ img.transparent {
 
 .sidePad {
   padding: 0px 20px;
-}
-
-.med-sidePad {
-  padding: 0px 40px;
 }
 
 .rightPad {
