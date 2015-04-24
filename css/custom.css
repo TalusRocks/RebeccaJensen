@@ -22,6 +22,11 @@ h3 {
   font-size: 1.7em;
   color: #333;
 }
+h4 {
+  font-family: "Lato", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1.4em;
+  color: #333;
+}
 p {
   font-family: "Lato", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 1.1em;
@@ -78,6 +83,10 @@ nav ul li {
   background-image:url('../images/landscapes/landscape-teanaway.jpg');
 }
 
+.visual-splash {
+  background-image:url('../images/landscapes/landscape-middlefork.jpg');
+}
+
 #texture-top1 {
   position: absolute;
   bottom: 0px;
@@ -124,10 +133,7 @@ div.feat-mini {
   margin: 0 auto;
 }
 
-/* ==== MEDIUM FEATURES ===== */
-#img-holder {
 
-}
 
 /*==== ABOUT ======*/
 .about {
@@ -173,12 +179,32 @@ img.wide {
   width: 100%;
 }
 
+img.less-wide {
+  width: 80%;
+}
+
+img.transparent {
+  opacity: 0.5;
+}
+
 .pad {
   padding: 20px;
 }
 
+.margin {
+  margin: 20px;
+}
+
 .sidePad {
   padding: 0px 20px;
+}
+
+.med-sidePad {
+  padding: 0px 40px;
+}
+
+.rightPad {
+  padding-right: 20px;
 }
 
 .darkBg {
@@ -210,6 +236,7 @@ color: #f0ad4e;
 background: none;
 border-color: #f0ad4e;
 }
+
 
 /* === GENERAL MARGINS AND PADDING */
 .xs-margin-top {
