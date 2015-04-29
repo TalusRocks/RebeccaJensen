@@ -87,6 +87,10 @@ nav ul li {
   background-image:url('../images/landscapes/landscape-middlefork.jpg');
 }
 
+.illustration-splash {
+  background-image:url('../images/landscapes/landscape-rockcreek-orienteering.jpg');
+}
+
 #texture-top1 {
   position: absolute;
   bottom: 0px;
@@ -330,8 +334,26 @@ with colored backgrounds */
 
 
 /* ===== MEDIA QUERIES===== */
-/* Phones & Phablets */
-@media(max-width:767px){
 
-  } /* end phones & phablets */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) { 
+div.feat-ctr img {
+  min-width: 50%;
+}
+.big-feat {
+  margin-top: 0px;
+}
+.big-feat-text {
+  margin-bottom: 30px;
+}
+
+} /*END MEDIUM DEVICES*/
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
