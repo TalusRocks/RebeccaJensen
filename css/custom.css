@@ -339,21 +339,25 @@ with colored backgrounds */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+@media (min-width:768px) { 
+
+}/*END SMALL TABLETS
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) { 
 div.feat-ctr img {
   min-width: 50%;
 }
-.big-feat {
-  margin-top: 0px;
-}
 .big-feat-text {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
-
 } /*END MEDIUM DEVICES*/
 
+
+
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+@media (min-width: @screen-lg-min) {
+.big-feat {
+  margin-top:25px;
+}
+ }
