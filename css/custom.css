@@ -6,29 +6,29 @@ body {
 
 /* FOR NAME ONLY */
 h1 {
-  font-family: "Walter Turncoat", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Roboto Slab", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 4em;
   color: #333;
 }
 /* FOR LARGE HEADLINES */
 h2 {
-  font-family: "Walter Turncoat", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Roboto Slab", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 2.5em;
   color: #333;
 }
 /* FOR SMALL HEADLINES INFO */
 h3 {
-  font-family: "Walter Turncoat", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 1.7em;
   color: #333;
 }
 h4 {
-  font-family: "Lato", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 1.4em;
   color: #333;
 }
 p {
-  font-family: "Lato", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 1.1em;
   color: #333;
 }
