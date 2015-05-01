@@ -215,6 +215,10 @@ img.transparent {
   color: #eee;
 }
 
+.red {
+  color: red;
+}
+
 
 /* ===== BUTTONS ===== */
 
@@ -339,7 +343,20 @@ with colored backgrounds */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width:768px) { 
+@media (max-width:768px) { 
+  
+.mobile-nav {
+  float: none !important;
+  display: block;
+  width: auto;
+  text-align: center;
+  color: red;
+}
+
+.my-button {
+  width: 100%;
+  margin: 0 auto;
+}
 
 }/*END SMALL TABLETS
 
@@ -351,6 +368,7 @@ div.feat-ctr img {
 .big-feat-text {
   margin-bottom: 0px;
 }
+
 } /*END MEDIUM DEVICES*/
 
 
