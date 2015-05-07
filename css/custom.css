@@ -35,6 +35,7 @@ p {
 a {
   color:#5bc0de;
   text-decoration: none;
+  font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 a:hover {
   text-decoration: none;
