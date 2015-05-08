@@ -268,6 +268,9 @@ border-color: #f0ad4e;
 .big-margin-bottom {
   margin-bottom: 100px;
 }
+.xl-margin-bottom {
+  margin-bottom: 150px;
+}
 
 /* padding is used instead of margin in sections 
 with colored backgrounds */
